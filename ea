@@ -1,0 +1,350 @@
+// ==UserScript==
+// @name AutoSBC
+// @description The AutoSBC extension as a user script
+// @version 1.2.10
+// @author AutoSBC
+// @match https://www.ea.com/*/ea-sports-fc/ultimate-team/web-app/*
+// @match https://www.ea.com/ea-sports-fc/ultimate-team/web-app/*
+// @connect ea.com
+// @connect ea2.com
+// @downloadURL https://www.autosbc.app/userscript/autosbc.user.js
+// @namespace https://www.autosbc.app/
+// @updateURL https://www.autosbc.app/userscript/autosbc.user.js
+// ==/UserScript==
+
+function a0_0x4636(_0x5d2b58, _0x2e9153) {
+    const _0x861b80 = a0_0x861b();
+    return (
+        (a0_0x4636 = function (_0x4636af, _0x5c1437) {
+            _0x4636af = _0x4636af - 0x184;
+            let _0x10f27f = _0x861b80[_0x4636af];
+            return _0x10f27f;
+        }),
+        a0_0x4636(_0x5d2b58, _0x2e9153)
+    );
+}
+function a0_0x861b() {
+    const _0x951af3 = [
+        'getUnassignedItems',
+        'createElement',
+        'toLocaleString',
+        'unobserve',
+        '23262261xTdfHL',
+        'loadChallenge',
+        'toggleSlider',
+        'squad',
+        'submitChallenge',
+        'chemistry',
+        'TAP',
+        '_label',
+        'type',
+        'toggleState',
+        'prototype',
+        'getExtendToTOTSTOTWToggle',
+        'parentNode',
+        '_metaData',
+        'key',
+        'categories',
+        'logs',
+        'generated',
+        'timestamp',
+        '4869693uUgEkm',
+        '_extendToTOTSTOTWToggle',
+        'basePossiblePositions',
+        'toggle',
+        'values',
+        'chemistries',
+        'success',
+        '_removeListenersByName',
+        '10203EgmidJ',
+        'PLAYER_MIN_OVR',
+        'PLAYER_TRADABILITY',
+        'race',
+        'setLabel',
+        '522lpFMsn',
+        'softbanMeter',
+        'sort',
+        'filter',
+        'indexOf',
+        '_rareflag',
+        'UIDialogOptions',
+        'classList',
+        '7026103PRxGih',
+        'add',
+        'refreshList',
+        '6ozIgpj',
+        'hasOwnProperty',
+        'recycleReview',
+        '191020MquszO',
+        'textContent',
+        'tradeable',
+        'children',
+        'getFirstKey',
+        '_quickRecycleToggle',
+        'setDirty',
+        'NATION_COUNT',
+        'setText',
+        'removeItem',
+        'nationId',
+        '_alreadyGenerated',
+        'teamId',
+        'getSetSoftbanMeterLimitsButton',
+        'getCurrentController',
+        'floor',
+        'onAutoSBC',
+        'Item',
+        'init',
+        '_tradeState',
+        '_autoSBC',
+        'getSBCSlots',
+        '_select',
+        'typeId',
+        'untradeable',
+        'builder',
+        '_rating',
+        '_exchangeButton',
+        'random',
+        'CLUB_COUNT',
+        'commitedPlayers',
+        'getRecycleReviewToggle',
+        'CHANGE',
+        'SBC',
+        'expiryTimestamp',
+        'addToggleCell',
+        'call',
+        'removeTarget',
+        'shift',
+        'LEAGUE_COUNT',
+        'clubs',
+        'quickRecycle',
+        'parse',
+        'extendToTOTSTOTW',
+        'scope',
+        '36PsZONj',
+        'PLAYER_RARITY_GROUP',
+        'sendAllToClub',
+        'groups',
+        'useUnassigned',
+        'stringify',
+        'quickExchange',
+        'PLAYER',
+        '_softbanMeterToggle',
+        'hourlyLimit',
+        'potentialPlayers',
+        'CHEMISTRY_POINTS',
+        'forEach',
+        'includes',
+        'count',
+        '_generate',
+        'Symbol',
+        'onlyCommon',
+        'below',
+        'getPlayers',
+        'position',
+        'keys',
+        'move',
+        'totstotw',
+        'getQuickRecycleToggle',
+        'getRootElement',
+        '_item',
+        '__root',
+        'clubCareer',
+        'getView',
+        'defId',
+        '_onToggled',
+        'players',
+        'renderView',
+        'length',
+        'saveChallenge',
+        '_recycleReviewToggle',
+        'innerHTML',
+        'getPitch',
+        'TEAM_RATING',
+        'toggleSetting',
+        '_restrictToOnlyCommonToggle',
+        'then',
+        'requirement',
+        'extendToTradeable',
+        'getRestrictToOnlyCommonToggle',
+        'NATION_ID',
+        'concept',
+        'slice',
+        'definitionId',
+        '_sendAllToClubToggle',
+        'LEGEND_COUNT',
+        'leagueId',
+        '_useUnassignedToggle',
+        'destroyGeneratedElements',
+        'getElementById',
+        'push',
+        'value',
+        'appendChild',
+        'PLAYER_MAX_OVR',
+        'leagues',
+        'onToggle',
+        '_extendToSpecialToggle',
+        'data',
+        'LEAGUE_ID',
+        '2360968VRRhDi',
+        'map',
+        '26Nrohtn',
+        'now',
+        'addTarget',
+        'marginLeft',
+        'layoutSubviews',
+        '173080fikCsP',
+        'viewWillDisappear',
+        'iterator',
+        'requestChallengesForSet',
+        'name',
+    ];
+    a0_0x861b = function () {
+        return _0x951af3;
+    };
+    return a0_0x861b();
+}
+(function (_0x47ab29, _0x5cb013) {
+    const _0x3ff67e = a0_0x4636,
+        _0x23542d = _0x47ab29();
+    while (!![]) {
+        try {
+            const _0x220198 =
+                (parseInt(_0x3ff67e(0x1e3)) / 0x1) * (-parseInt(_0x3ff67e(0x1ba)) / 0x2) +
+                parseInt(_0x3ff67e(0x1db)) / 0x3 +
+                (-parseInt(_0x3ff67e(0x223)) / 0x4) * (parseInt(_0x3ff67e(0x1bf)) / 0x5) +
+                (-parseInt(_0x3ff67e(0x1f3)) / 0x6) * (-parseInt(_0x3ff67e(0x1f0)) / 0x7) +
+                -parseInt(_0x3ff67e(0x1b8)) / 0x8 +
+                (-parseInt(_0x3ff67e(0x1e8)) / 0x9) * (-parseInt(_0x3ff67e(0x1f6)) / 0xa) +
+                -parseInt(_0x3ff67e(0x1c8)) / 0xb;
+            if (_0x220198 === _0x5cb013) break;
+            else _0x23542d['push'](_0x23542d['shift']());
+        } catch (_0x3b768c) {
+            _0x23542d['push'](_0x23542d['shift']());
+        }
+    }
+})(a0_0x861b, 0xd70b5),
+    (() => {
+        'use strict';
+        const _0x3194ba = a0_0x4636;
+        function _0x4f4c2e() {
+            const _0x41ad61 = [
+                '12RrxMDB',
+                'splice',
+                'isArray',
+                '638556CQJGrd',
+                '795535FXiZaB',
+                '56BXAXfj',
+                '381185ogKjMa',
+                '108618SOZnOI',
+                'indexOf',
+                '400oAowjq',
+                '2562780rnMxnH',
+                '270458HnfqHk',
+                '21483syBxAH',
+                '3XzWiJt',
+            ];
+            return (_0x4f4c2e = function () {
+                return _0x41ad61;
+            })();
+        }
+        function _0x38a357(_0x14aede, _0x5246e9) {
+            const _0x3f3931 = _0x4f4c2e();
+            return (_0x38a357 = function (_0x5d03e7, _0xc8d0e0) {
+                return _0x3f3931[(_0x5d03e7 -= 0x17f)];
+            })(_0x14aede, _0x5246e9);
+        }
+        function _0x1b3b66(_0x31d2a1) {
+            return Array[_0x38a357(0x184)](_0x31d2a1) ? _0x31d2a1 : [_0x31d2a1];
+        }
+        function _0x2ffe28(_0x2d4a16, _0x2d262f) {
+            const _0xbc3de6 = _0x38a357,
+                _0x325831 = _0x2d4a16[_0xbc3de6(0x18a)](_0x2d262f);
+            _0x325831 > -0x1 && _0x2d4a16[_0xbc3de6(0x183)](_0x325831, 0x1);
+        }
+        function _0x2dff8e() {
+            var _0x17ea57 = [
+                '765224kUIcDl',
+                '2292786XGDZal',
+                '12IFQQEm',
+                'random',
+                '7aBseew',
+                '43755hfpVXG',
+                '10617gBcbzt',
+                'floor',
+                '3265872cCyShe',
+                '10462491eXRehH',
+                '17634JfIaPr',
+            ];
+            return (_0x2dff8e = function () {
+                return _0x17ea57;
+            })();
+        }
+        function _0x8cef61(_0x495751, _0x453d30) {
+            var _0x189221 = _0x2dff8e();
+            return (_0x8cef61 = function (_0x20d863, _0x248b82) {
+                return _0x189221[(_0x20d863 -= 0xd9)];
+            })(_0x495751, _0x453d30);
+        }
+        function _0x3a9dc0(_0x46e960, _0xaa107f) {
+            const _0x5d0bb7 = a0_0x4636;
+            var _0x590647 = _0x8cef61;
+            return (
+                (_0x46e960 =
+                    0x3e8 *
+                    ((_0x46e960 = _0xaa107f
+                        ? Math[_0x590647(0xd9)]() * (_0xaa107f - _0x46e960) + _0x46e960
+                        : _0x46e960) /
+                        0x3e8 +
+                        Math[_0x590647(0xdd)](Math[_0x5d0bb7(0x212)]()))),
+                new Promise((_0x4b0671) => {
+                    setTimeout(_0x4b0671, _0x46e960);
+                })
+            );
+        }
+        function _0x90f2be(_0xec934a, _0x3aee0d) {
+            const _0x55395a = _0x4520b1,
+                _0x3790d7 = _0x3aee0d[_0x55395a(0x1cb)]?.['id'] ?? _0x3aee0d[_0x55395a(0x1ca)];
+            for (let _0x8ffd7e = 0x0; _0x8ffd7e < _0xec934a[_0x55395a(0x1d4)]; _0x8ffd7e++) {
+                if (
+                    (_0xec934a[_0x8ffd7e][_0x55395a(0x1cb)]?.['id'] ?? _0xec934a[_0x8ffd7e][_0x55395a(0x1ca)]) ===
+                    _0x3790d7
+                )
+                    return !0x0;
+            }
+            return !0x1;
+        }
+        function _0x3da26f() {
+            const _0x52c08e = [
+                'observe',
+                '77fYfGRp',
+                'offset',
+                'length',
+                'map',
+                'searchCriteria',
+                'round',
+                '2174125SsCSjW',
+                'defId',
+                'status',
+                'searchConceptItems',
+                '2847272tzRSNM',
+                '70814SFLrXr',
+                'then',
+                '136955vLXGoV',
+                'response',
+                '9bFolVt',
+                'push',
+                '113468fweCzv',
+                'count',
+                '21ejRvzL',
+                'filter',
+                '2584320amKNoA',
+                'find',
+                'definitionId',
+                '_metaData',
+                'reduce',
+                'endOfList',
+                '105054WJxgIi',
+                'items',
+                '_rating',
+            ];
+        
